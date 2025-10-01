@@ -1,8 +1,6 @@
 # 🎞️ scrap-tv-feed
 
-[![Content Count](https://img.shields.io/badge/Content-25%20Videos-blue.svg)](https://github.com/chris-trag/scrap-tv-feed)
 [![License: MIT-0](https://img.shields.io/badge/License-MIT--0-yellow.svg)](https://github.com/chris-trag/scrap-tv-feed/blob/main/LICENSE)
-[![Platform Support](https://img.shields.io/badge/Platforms-Android%20TV%20%7C%20Fire%20TV%20%7C%20Roku%20%7C%20Web-green.svg)](https://github.com/chris-trag/scrap-tv-feed)
 
 A ready-to-use sample TV feed with 25 absurd shows, complete metadata, and organized assets. Perfect for building app prototypes across any platform or framework.
 
