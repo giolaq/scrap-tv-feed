@@ -1,0 +1,395 @@
+<?xml version="1.0" ?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dcterms="http://purl.org/dc/terms/" version="2.0">
+  <channel>
+    <title>Scrap TV Feed</title>
+    <description>Sample TV content for developers</description>
+    <link>https://github.com/chris-trag/scrap-tv-feed</link>
+    <lastBuildDate>Tue, 30 Sep 2025 20:10:24 GMT</lastBuildDate>
+    <item>
+      <title>Appointment Delayed</title>
+      <description>Sarah Holdpattern captures real people in authentic waiting situations - from doctor's offices to DMV lines. Features candid interviews about what people think about, do, and feel while waiting for important appointments.</description>
+      <guid>appointment-delayed</guid>
+      <category>Waiting Room TV</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/appointment-delayed/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/appointment-delayed/poster_1920x1080.jpg"/>
+      <media:title>Appointment Delayed</media:title>
+      <media:description>Sarah Holdpattern captures real people in authentic waiting situations - from doctor's offices to DMV lines. Features candid interviews about what people think about, do, and feel while waiting for important appointments.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Waiting Room TV</media:category>
+      <media:keywords>Reality, Documentary</media:keywords>
+      <media:rating scheme="urn:simple">3.5</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2022 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>Behind The Screams</title>
+      <description>Mort Shambler takes viewers behind the scenes of zombie movie productions, following extras through makeup, rehearsals, and filming. Features the daily challenges of maintaining zombie character while dealing with long shooting days and complex choreography.</description>
+      <guid>behind-the-screams</guid>
+      <category>Background Character Studios</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/behind-the-screams/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/behind-the-screams/poster_1920x1080.jpg"/>
+      <media:title>Behind The Screams</media:title>
+      <media:description>Mort Shambler takes viewers behind the scenes of zombie movie productions, following extras through makeup, rehearsals, and filming. Features the daily challenges of maintaining zombie character while dealing with long shooting days and complex choreography.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Background Character Studios</media:category>
+      <media:keywords>Documentary, Comedy</media:keywords>
+      <media:rating scheme="urn:simple">3.5</media:rating>
+      <media:credit role="rating">TV-14</media:credit>
+      <media:copyright>© 2022 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>Cereal Streamz</title>
+      <description>Crunch Time livestreams daily cereal tastings with chat interaction, cereal mixing experiments, and guest appearances from other cereal influencers. Kids tune in to watch their favorite streamers try new cereals, rate combinations, and react to viewer suggestions in real-time.</description>
+      <guid>cereal-streamz</guid>
+      <category>General</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/cereal-streamz/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/cereal-streamz/poster_1920x1080.jpg"/>
+      <media:title>Cereal Streamz</media:title>
+      <media:description>Crunch Time livestreams daily cereal tastings with chat interaction, cereal mixing experiments, and guest appearances from other cereal influencers. Kids tune in to watch their favorite streamers try new cereals, rate combinations, and react to viewer suggestions in real-time.</media:description>
+      <media:category scheme="urn:scrap-tv:category">General</media:category>
+      <media:keywords>Kids, Reality</media:keywords>
+      <media:rating scheme="urn:simple">3.2</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2024 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>Feline Assistant</title>
+      <description>Abyssinian Organized manages the complex schedules and demands of executive cats. Features cats answering phones, scheduling meetings, and maintaining office organization while dealing with the challenge of keeping important papers from being knocked off desks.</description>
+      <guid>feline-assistant</guid>
+      <category>Feline-Friendly</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/feline-assistant/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/feline-assistant/poster_1920x1080.jpg"/>
+      <media:title>Feline Assistant</media:title>
+      <media:description>Abyssinian Organized manages the complex schedules and demands of executive cats. Features cats answering phones, scheduling meetings, and maintaining office organization while dealing with the challenge of keeping important papers from being knocked off desks.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Feline-Friendly</media:category>
+      <media:keywords>Comedy, Workplace</media:keywords>
+      <media:rating scheme="urn:simple">4.1</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2019 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>Feline Resources</title>
+      <description>Persian Professional leads the HR department in handling workplace conflicts, performance reviews, and employee relations. Features cats in tiny business suits mediating disputes, though meetings often devolve into grooming sessions and territorial disputes over the best office chairs.</description>
+      <guid>feline-resources</guid>
+      <category>Feline-Friendly</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/feline-resources/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/feline-resources/poster_1920x1080.jpg"/>
+      <media:title>Feline Resources</media:title>
+      <media:description>Persian Professional leads the HR department in handling workplace conflicts, performance reviews, and employee relations. Features cats in tiny business suits mediating disputes, though meetings often devolve into grooming sessions and territorial disputes over the best office chairs.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Feline-Friendly</media:category>
+      <media:keywords>Comedy, Workplace</media:keywords>
+      <media:rating scheme="urn:simple">3.9</media:rating>
+      <media:credit role="rating">TV-MA</media:credit>
+      <media:copyright>© 2023 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>Makeup Mayhem</title>
+      <description>Gore Gorgeous and her team transform ordinary people into convincing zombies. Features time-lapse makeup sessions, special effects techniques, and the challenges of creating realistic zombie looks on tight budgets and schedules.</description>
+      <guid>makeup-mayhem</guid>
+      <category>General</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/makeup-mayhem/movie_1080p.mp4" type="video/mp4" duration="17"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/makeup-mayhem/poster_1920x1080.jpg"/>
+      <media:title>Makeup Mayhem</media:title>
+      <media:description>Gore Gorgeous and her team transform ordinary people into convincing zombies. Features time-lapse makeup sessions, special effects techniques, and the challenges of creating realistic zombie looks on tight budgets and schedules.</media:description>
+      <media:category scheme="urn:scrap-tv:category">General</media:category>
+      <media:keywords>Reality, Competition</media:keywords>
+      <media:rating scheme="urn:simple">3.9</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2020 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>Meditation In Beige</title>
+      <description>Oatmeal Serenity leads guided meditations in perfectly beige environments designed to promote inner peace. Each episode features different neutral settings from desert landscapes to minimalist studios.</description>
+      <guid>meditation-in-beige</guid>
+      <category>Beige Studios</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/meditation-in-beige/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/meditation-in-beige/poster_1920x1080.jpg"/>
+      <media:title>Meditation In Beige</media:title>
+      <media:description>Oatmeal Serenity leads guided meditations in perfectly beige environments designed to promote inner peace. Each episode features different neutral settings from desert landscapes to minimalist studios.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Beige Studios</media:category>
+      <media:keywords>Lifestyle, Wellness</media:keywords>
+      <media:rating scheme="urn:simple">4.8</media:rating>
+      <media:credit role="rating">TV-MA</media:credit>
+      <media:copyright>© 2023 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>Parking Lot Mysteries</title>
+      <description>Detective Lisa Asphalt investigates real crimes that occurred in parking lots across America. From theft to more serious crimes, explore how parking lot security footage and witness testimony help solve cases.</description>
+      <guid>parking-lot-mysteries</guid>
+      <category>Parking Channel</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/parking-lot-mysteries/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/parking-lot-mysteries/poster_1920x1080.jpg"/>
+      <media:title>Parking Lot Mysteries</media:title>
+      <media:description>Detective Lisa Asphalt investigates real crimes that occurred in parking lots across America. From theft to more serious crimes, explore how parking lot security footage and witness testimony help solve cases.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Parking Channel</media:category>
+      <media:keywords>Mystery, Drama</media:keywords>
+      <media:rating scheme="urn:simple">4.1</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2024 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>Parking Wars</title>
+      <description>Follow the daily adventures of gnome parking enforcement officers as they patrol city streets, issue tiny tickets, and maintain order in parking lots. Chief Gnome Officer Tiny Ticket leads his team of dedicated gnomes through the challenges of urban parking enforcement.</description>
+      <guid>parking-wars</guid>
+      <category>Parking Channel</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/parking-wars/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/parking-wars/poster_1920x1080.jpg"/>
+      <media:title>Parking Wars</media:title>
+      <media:description>Follow the daily adventures of gnome parking enforcement officers as they patrol city streets, issue tiny tickets, and maintain order in parking lots. Chief Gnome Officer Tiny Ticket leads his team of dedicated gnomes through the challenges of urban parking enforcement.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Parking Channel</media:category>
+      <media:keywords>Comedy, Reality</media:keywords>
+      <media:rating scheme="urn:simple">4.0</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2020 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>Patience Tested</title>
+      <description>Chuck Endurance hosts this unique game show where contestants compete to see who can wait the longest while maintaining composure. Features increasingly challenging waiting scenarios and distractions.</description>
+      <guid>patience-tested</guid>
+      <category>Waiting Room TV</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/patience-tested/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/patience-tested/poster_1920x1080.jpg"/>
+      <media:title>Patience Tested</media:title>
+      <media:description>Chuck Endurance hosts this unique game show where contestants compete to see who can wait the longest while maintaining composure. Features increasingly challenging waiting scenarios and distractions.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Waiting Room TV</media:category>
+      <media:keywords>Game Show, Competition</media:keywords>
+      <media:rating scheme="urn:simple">4.7</media:rating>
+      <media:credit role="rating">TV-MA</media:credit>
+      <media:copyright>© 2020 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>Spot Hunters Season 1</title>
+      <description>Contestants compete in timed challenges to find parking spots in increasingly difficult urban environments. From busy shopping centers to downtown business districts, watch as drivers navigate the ultimate parking obstacle course.</description>
+      <guid>spot-hunters-season-1</guid>
+      <category>Parking Channel</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/spot-hunters-season-1/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/spot-hunters-season-1/poster_1920x1080.jpg"/>
+      <media:title>Spot Hunters Season 1</media:title>
+      <media:description>Contestants compete in timed challenges to find parking spots in increasingly difficult urban environments. From busy shopping centers to downtown business districts, watch as drivers navigate the ultimate parking obstacle course.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Parking Channel</media:category>
+      <media:keywords>Reality, Competition</media:keywords>
+      <media:rating scheme="urn:simple">4.7</media:rating>
+      <media:credit role="rating">TV-MA</media:credit>
+      <media:copyright>© 2020 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>Spot Hunters Season 2</title>
+      <description>Contestants compete in timed challenges to find parking spots in increasingly difficult urban environments. From busy shopping centers to downtown business districts, watch as drivers navigate the ultimate parking obstacle course.</description>
+      <guid>spot-hunters-season-2</guid>
+      <category>Parking Channel</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/spot-hunters-season-2/movie_1080p.mp4" type="video/mp4" duration="5"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/spot-hunters-season-2/poster_1920x1080.jpg"/>
+      <media:title>Spot Hunters Season 2</media:title>
+      <media:description>Contestants compete in timed challenges to find parking spots in increasingly difficult urban environments. From busy shopping centers to downtown business districts, watch as drivers navigate the ultimate parking obstacle course.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Parking Channel</media:category>
+      <media:keywords>Reality, Competition</media:keywords>
+      <media:rating scheme="urn:simple">3.8</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2021 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>Startup Strays</title>
+      <description>Bengal Innovator leads a team of ambitious cats trying to launch the next big tech company. Features cats in hoodies working late nights, pitching to investors, and dealing with the challenges of startup life while maintaining their feline independence.</description>
+      <guid>startup-strays</guid>
+      <category>General</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/startup-strays/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/startup-strays/poster_1920x1080.jpg"/>
+      <media:title>Startup Strays</media:title>
+      <media:description>Bengal Innovator leads a team of ambitious cats trying to launch the next big tech company. Features cats in hoodies working late nights, pitching to investors, and dealing with the challenges of startup life while maintaining their feline independence.</media:description>
+      <media:category scheme="urn:scrap-tv:category">General</media:category>
+      <media:keywords>Comedy, Business</media:keywords>
+      <media:rating scheme="urn:simple">3.8</media:rating>
+      <media:credit role="rating">TV-MA</media:credit>
+      <media:copyright>© 2024 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>Stone Cold Makeovers</title>
+      <description>Medusa Stone uses her legendary design skills to create breathtaking beige interiors that literally leave clients stunned. Her signature snake-hair styling and stone-cold professionalism have made her the most sought-after neutral tone designer in the world.</description>
+      <guid>stone-cold-makeovers</guid>
+      <category>Beige Studios</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/stone-cold-makeovers/movie_1080p.mp4" type="video/mp4" duration="11"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/stone-cold-makeovers/poster_1920x1080.jpg"/>
+      <media:title>Stone Cold Makeovers</media:title>
+      <media:description>Medusa Stone uses her legendary design skills to create breathtaking beige interiors that literally leave clients stunned. Her signature snake-hair styling and stone-cold professionalism have made her the most sought-after neutral tone designer in the world.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Beige Studios</media:category>
+      <media:keywords>Home &amp; Garden, Reality</media:keywords>
+      <media:rating scheme="urn:simple">4.8</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2020 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>The Accounting Cats</title>
+      <description>Ragdoll Calculator and her team of accounting cats handle corporate finances with meticulous attention to detail. Features cats wearing tiny glasses and visors, working with calculators and spreadsheets, though they occasionally get distracted by moving cursor arrows on computer screens.</description>
+      <guid>the-accounting-cats</guid>
+      <category>Feline-Friendly</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-accounting-cats/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-accounting-cats/poster_1920x1080.jpg"/>
+      <media:title>The Accounting Cats</media:title>
+      <media:description>Ragdoll Calculator and her team of accounting cats handle corporate finances with meticulous attention to detail. Features cats wearing tiny glasses and visors, working with calculators and spreadsheets, though they occasionally get distracted by moving cursor arrows on computer screens.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Feline-Friendly</media:category>
+      <media:keywords>Comedy, Workplace</media:keywords>
+      <media:rating scheme="urn:simple">4.8</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2020 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>The Art Of Waiting</title>
+      <description>Despite his reputation for being a "bull in a china shop," Dr. Ferdinand Bull has mastered the art of patience through years of therapy training. Each episode features practical techniques for managing anxiety, frustration, and restlessness during waiting periods.</description>
+      <guid>the-art-of-waiting</guid>
+      <category>Waiting Room TV</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-art-of-waiting/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-art-of-waiting/poster_1920x1080.jpg"/>
+      <media:title>The Art Of Waiting</media:title>
+      <media:description>Despite his reputation for being a "bull in a china shop," Dr. Ferdinand Bull has mastered the art of patience through years of therapy training. Each episode features practical techniques for managing anxiety, frustration, and restlessness during waiting periods.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Waiting Room TV</media:category>
+      <media:keywords>Educational, Wellness</media:keywords>
+      <media:rating scheme="urn:simple">4.0</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2021 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>The Beige Knight</title>
+      <description>By day, Bruce Neutral is a mild-mannered interior designer. By night, he becomes The Beige Knight, using his mastery of neutral tones to calm criminals and restore peace to Gotham's most colorful neighborhoods.</description>
+      <guid>the-beige-knight</guid>
+      <category>Beige Studios</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-beige-knight/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-beige-knight/poster_1920x1080.jpg"/>
+      <media:title>The Beige Knight</media:title>
+      <media:description>By day, Bruce Neutral is a mild-mannered interior designer. By night, he becomes The Beige Knight, using his mastery of neutral tones to calm criminals and restore peace to Gotham's most colorful neighborhoods.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Beige Studios</media:category>
+      <media:keywords>Action, Comedy</media:keywords>
+      <media:rating scheme="urn:simple">4.2</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2021 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>The Boardroom Cats</title>
+      <description>Siamese Supreme leads board meetings with other executive cats including a Bengal CFO, a Russian Blue COO, and a Norwegian Forest Cat head of marketing. Features intense business negotiations interrupted by sudden urges to knock things off the conference table.</description>
+      <guid>the-boardroom-cats</guid>
+      <category>Feline-Friendly</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-boardroom-cats/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-boardroom-cats/poster_1920x1080.jpg"/>
+      <media:title>The Boardroom Cats</media:title>
+      <media:description>Siamese Supreme leads board meetings with other executive cats including a Bengal CFO, a Russian Blue COO, and a Norwegian Forest Cat head of marketing. Features intense business negotiations interrupted by sudden urges to knock things off the conference table.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Feline-Friendly</media:category>
+      <media:keywords>Comedy, Workplace</media:keywords>
+      <media:rating scheme="urn:simple">3.7</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2021 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>The Corporate Litter</title>
+      <description>Tabby McWhiskers manages a diverse office of cats from tiny kittens to large Maine Coons. Features typical office dynamics with a feline twist - conference room meetings interrupted by laser pointers, and productivity challenges when the afternoon sun hits the perfect napping spot.</description>
+      <guid>the-corporate-litter</guid>
+      <category>Feline-Friendly</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-corporate-litter/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-corporate-litter/poster_1920x1080.jpg"/>
+      <media:title>The Corporate Litter</media:title>
+      <media:description>Tabby McWhiskers manages a diverse office of cats from tiny kittens to large Maine Coons. Features typical office dynamics with a feline twist - conference room meetings interrupted by laser pointers, and productivity challenges when the afternoon sun hits the perfect napping spot.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Feline-Friendly</media:category>
+      <media:keywords>Comedy, Workplace</media:keywords>
+      <media:rating scheme="urn:simple">4.1</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2020 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>The Endless Queue</title>
+      <description>When people join a line for an unknown purpose and discover they can never leave, psychological horror ensues. A mind-bending thriller about conformity, patience, and the dark side of waiting.</description>
+      <guid>the-endless-queue</guid>
+      <category>Waiting Room TV</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-endless-queue/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-endless-queue/poster_1920x1080.jpg"/>
+      <media:title>The Endless Queue</media:title>
+      <media:description>When people join a line for an unknown purpose and discover they can never leave, psychological horror ensues. A mind-bending thriller about conformity, patience, and the dark side of waiting.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Waiting Room TV</media:category>
+      <media:keywords>Thriller, Horror</media:keywords>
+      <media:rating scheme="urn:simple">3.6</media:rating>
+      <media:credit role="rating">TV-G</media:credit>
+      <media:copyright>© 2019 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>The Extra Mile</title>
+      <description>Veteran zombie extra Harold Shambles reflects on his 30-year career as he prepares for his final zombie role. A touching drama about dedication, artistry, and finding meaning in being part of something bigger than yourself.</description>
+      <guid>the-extra-mile</guid>
+      <category>General</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-extra-mile/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-extra-mile/poster_1920x1080.jpg"/>
+      <media:title>The Extra Mile</media:title>
+      <media:description>Veteran zombie extra Harold Shambles reflects on his 30-year career as he prepares for his final zombie role. A touching drama about dedication, artistry, and finding meaning in being part of something bigger than yourself.</media:description>
+      <media:category scheme="urn:scrap-tv:category">General</media:category>
+      <media:keywords>Drama, Workplace</media:keywords>
+      <media:rating scheme="urn:simple">3.8</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2023 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>The Great Beige Bakeoff</title>
+      <description>Vanilla Wheatfield challenges bakers to create stunning desserts using only beige ingredients like vanilla, caramel, wheat flour, and brown sugar. Contestants must prove that neutral doesn't mean boring in this sweet competition.</description>
+      <guid>the-great-beige-bakeoff</guid>
+      <category>Beige Studios</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-great-beige-bakeoff/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-great-beige-bakeoff/poster_1920x1080.jpg"/>
+      <media:title>The Great Beige Bakeoff</media:title>
+      <media:description>Vanilla Wheatfield challenges bakers to create stunning desserts using only beige ingredients like vanilla, caramel, wheat flour, and brown sugar. Contestants must prove that neutral doesn't mean boring in this sweet competition.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Beige Studios</media:category>
+      <media:keywords>Competition, Food</media:keywords>
+      <media:rating scheme="urn:simple">3.6</media:rating>
+      <media:credit role="rating">TV-14</media:credit>
+      <media:copyright>© 2021 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>The Great Parking Shortage</title>
+      <description>When a major city's parking infrastructure collapses, chaos ensues as millions of drivers compete for the few remaining spots. The gnome enforcement officers must work overtime to maintain order in this parking apocalypse thriller.</description>
+      <guid>the-great-parking-shortage</guid>
+      <category>Parking Channel</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-great-parking-shortage/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-great-parking-shortage/poster_1920x1080.jpg"/>
+      <media:title>The Great Parking Shortage</media:title>
+      <media:description>When a major city's parking infrastructure collapses, chaos ensues as millions of drivers compete for the few remaining spots. The gnome enforcement officers must work overtime to maintain order in this parking apocalypse thriller.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Parking Channel</media:category>
+      <media:keywords>Documentary, Drama</media:keywords>
+      <media:rating scheme="urn:simple">3.9</media:rating>
+      <media:credit role="rating">TV-14</media:credit>
+      <media:copyright>© 2021 Scrap TV</media:copyright>
+    </item>
+    <item>
+      <title>The It Cats</title>
+      <description>Maine Coon Techie leads the IT department in solving technical problems and maintaining computer systems. Features cats walking across keyboards, getting tangled in cables, and somehow accidentally fixing problems while investigating interesting computer sounds.</description>
+      <guid>the-it-cats</guid>
+      <category>Feline-Friendly</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-it-cats/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-it-cats/poster_1920x1080.jpg"/>
+      <media:title>The It Cats</media:title>
+      <media:description>Maine Coon Techie leads the IT department in solving technical problems and maintaining computer systems. Features cats walking across keyboards, getting tangled in cables, and somehow accidentally fixing problems while investigating interesting computer sounds.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Feline-Friendly</media:category>
+      <media:keywords>Comedy, Tech</media:keywords>
+      <media:rating scheme="urn:simple">3.8</media:rating>
+      <media:credit role="rating">TV-MA</media:credit>
+      <media:copyright>© 2024 Scrap TV</media:copyright>
+      <media:restriction type="trending">allow</media:restriction>
+    </item>
+    <item>
+      <title>The Waiting Dead</title>
+      <description>Rigor Mortis captures the hilarious downtime between zombie scenes. Features extras in full zombie makeup playing cards, eating lunch, and dealing with the mundane aspects of movie production while looking terrifying.</description>
+      <guid>the-waiting-dead</guid>
+      <category>Background Character Studios</category>
+      <media:content url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-waiting-dead/movie_1080p.mp4" type="video/mp4" duration="10"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/content/the-waiting-dead/poster_1920x1080.jpg"/>
+      <media:title>The Waiting Dead</media:title>
+      <media:description>Rigor Mortis captures the hilarious downtime between zombie scenes. Features extras in full zombie makeup playing cards, eating lunch, and dealing with the mundane aspects of movie production while looking terrifying.</media:description>
+      <media:category scheme="urn:scrap-tv:category">Background Character Studios</media:category>
+      <media:keywords>Horror, Thriller</media:keywords>
+      <media:rating scheme="urn:simple">3.9</media:rating>
+      <media:credit role="rating">TV-PG</media:credit>
+      <media:copyright>© 2019 Scrap TV</media:copyright>
+    </item>
+  </channel>
+</rss>
+

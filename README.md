@@ -11,7 +11,8 @@ A ready-to-use sample TV feed with imaginary shows, complete metadata, and organ
 ## 🌟 What's Included
 
 - **Complete Shows** - Videos + poster images with embedded metadata
-- **Rich Catalog** - JSON feed with ratings, genres, descriptions, release years
+- **Dual Feed Formats** - JSON catalog + MRSS/XML feed for maximum compatibility
+- **Rich Metadata** - Ratings, genres, descriptions, release years, content ratings
 - **Organized Assets** - Standardized file structure ready for CDN deployment
 - **Cross-Platform Ready** - Works with React Native, Android, Roku, Web, and more
 - **Imaginary Content** - From cereal livestreaming to zombie movie extras
@@ -26,7 +27,7 @@ A ready-to-use sample TV feed with imaginary shows, complete metadata, and organ
 
 ## 🚀 Quick Start
 
-### Use the Live Feed
+### Use the JSON Feed
 ```javascript
 const CATALOG_URL = "https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/catalog.json";
 
@@ -35,6 +36,20 @@ fetch(CATALOG_URL)
   .then(catalog => {
     console.log(`Found ${catalog.items.length} shows`);
     // Build your UI with catalog.items
+  });
+```
+
+### Use the MRSS Feed
+```javascript
+const MRSS_URL = "https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/feed.xml";
+
+fetch(MRSS_URL)
+  .then(response => response.text())
+  .then(xmlText => {
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+    const items = xmlDoc.querySelectorAll("item");
+    console.log(`Found ${items.length} shows in MRSS format`);
   });
 ```
 
@@ -83,6 +98,20 @@ Each show includes:
 }
 ```
 
+## 📺 Feed Formats
+
+### JSON Catalog (`catalog.json`)
+Structured data perfect for modern web apps and mobile development:
+- Easy parsing with `JSON.parse()`
+- Rich metadata including ratings, genres, trending status
+- Flexible filtering and sorting capabilities
+
+### MRSS Feed (`feed.xml`)
+Media RSS format for traditional RSS readers and media players:
+- Compatible with podcast apps, RSS readers, and media aggregators
+- Includes `<media:content>`, `<media:thumbnail>`, and `<media:rating>` elements
+- Follows Yahoo Media RSS specification
+
 ## 🔧 Customization
 
 ### Change CDN Base URL
@@ -100,13 +129,21 @@ sed -i 's/${base_path}/https:\/\/cdn.yoursite.com/g' catalog.json
 1. Fork this repository
 2. Enable GitHub Pages in repository settings
 3. Update `${base_path}` to your GitHub Pages URL
-4. Use `https://username.github.io/scrap-tv-feed/catalog.json`
+4. Access feeds at:
+   - `https://username.github.io/scrap-tv-feed/catalog.json`
+   - `https://username.github.io/scrap-tv-feed/feed.xml`
+
+### Regenerate MRSS Feed
+```bash
+python3 tools/generate_mrss.py catalog.json > feed.xml
+```
 
 ## 📁 File Structure
 
 ```
 scrap-tv-feed/
-├── catalog.json              # Main feed with all metadata
+├── catalog.json              # JSON feed with all metadata
+├── feed.xml                  # MRSS/XML feed for RSS readers
 ├── hero-github.jpg           # Hero image for README
 ├── TV-COLLECTION.md          # Visual catalog with animated previews
 ├── content/                  # Organized video assets
@@ -119,7 +156,9 @@ scrap-tv-feed/
 │   │   ├── poster_1920x1080.jpg
 │   │   └── preview_animated_1280x720.gif
 │   └── ...
-├── tools/                    # Catalog generation scripts
+├── tools/                    # Feed generation scripts
+│   ├── organize_tv_feed.py   # Catalog organization
+│   └── generate_mrss.py      # MRSS feed generator
 └── README.md
 ```
 
