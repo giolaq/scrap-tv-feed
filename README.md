@@ -8,7 +8,7 @@ A ready-to-use sample TV feed with 25 absurd shows, complete metadata, and organ
 
 ## 🌟 What's Included
 
-- **25 Complete Shows** - Videos + poster images with embedded metadata
+- **Complete Shows** - Videos + poster images with embedded metadata
 - **Rich Catalog** - JSON feed with ratings, genres, descriptions, release years
 - **Organized Assets** - Standardized file structure ready for CDN deployment
 - **Cross-Platform Ready** - Works with React Native, Android, Roku, Web, and more
