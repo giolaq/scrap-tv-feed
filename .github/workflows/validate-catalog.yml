@@ -1,0 +1,128 @@
+name: Validate Catalog
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'catalog.json'
+      - 'content/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Validate JSON syntax
+      run: |
+        python -m json.tool catalog.json > /dev/null
+        echo "✅ catalog.json is valid JSON"
+    
+    - name: Check required fields
+      run: |
+        python3 -c "
+        import json
+        
+        with open('catalog.json') as f:
+            catalog = json.load(f)
+        
+        # Check top-level structure
+        required_top = ['catalog_version', 'updated_at', 'items']
+        for field in required_top:
+            assert field in catalog, f'Missing top-level field: {field}'
+        
+        # Check each item has required fields
+        required_item = ['id', 'type', 'title', 'category', 'genres', 'trending', 'rating_count', 'rating_stars', 'content_rating', 'release_year', 'images', 'sources']
+        
+        for i, item in enumerate(catalog['items']):
+            for field in required_item:
+                assert field in item, f'Item {i} missing field: {field}'
+            
+            # Validate data types and ranges
+            assert isinstance(item['rating_stars'], (int, float)), f'Item {i}: rating_stars must be numeric'
+            assert 0 <= item['rating_stars'] <= 5, f'Item {i}: rating_stars must be 0-5'
+            assert isinstance(item['rating_count'], int), f'Item {i}: rating_count must be integer'
+            assert item['rating_count'] > 0, f'Item {i}: rating_count must be positive'
+            assert isinstance(item['genres'], list), f'Item {i}: genres must be array'
+            assert len(item['genres']) > 0, f'Item {i}: must have at least one genre'
+            assert item['content_rating'] in ['TV-G', 'TV-PG', 'TV-14', 'TV-MA'], f'Item {i}: invalid content_rating'
+            assert 2018 <= item['release_year'] <= 2024, f'Item {i}: release_year out of range'
+        
+        print(f'✅ Validated {len(catalog[\"items\"])} items successfully')
+        "
+    
+    - name: Check for duplicate IDs
+      run: |
+        python3 -c "
+        import json
+        
+        with open('catalog.json') as f:
+            catalog = json.load(f)
+        
+        ids = [item['id'] for item in catalog['items']]
+        duplicates = [id for id in set(ids) if ids.count(id) > 1]
+        
+        assert len(duplicates) == 0, f'Duplicate IDs found: {duplicates}'
+        print('✅ No duplicate IDs found')
+        "
+    
+    - name: Validate URLs use template variable
+      run: |
+        python3 -c "
+        import json
+        
+        with open('catalog.json') as f:
+            catalog = json.load(f)
+        
+        for item in catalog['items']:
+            # Check poster URLs
+            if 'poster_16x9' in item['images']:
+                url = item['images']['poster_16x9']
+                assert url.startswith('\${base_path}'), f'Poster URL must use \${base_path} template: {url}'
+            
+            # Check source URLs
+            for source in item['sources']:
+                url = source['url']
+                assert url.startswith('\${base_path}'), f'Source URL must use \${base_path} template: {url}'
+        
+        print('✅ All URLs use template variable correctly')
+        "
+    
+    - name: Check content files exist
+      run: |
+        python3 -c "
+        import json
+        import os
+        
+        with open('catalog.json') as f:
+            catalog = json.load(f)
+        
+        missing_files = []
+        
+        for item in catalog['items']:
+            # Check poster exists
+            poster_path = f'content/{item[\"id\"]}/poster_1920x1080.jpg'
+            if not os.path.exists(poster_path):
+                missing_files.append(poster_path)
+            
+            # Check video exists  
+            video_path = f'content/{item[\"id\"]}/movie_1080p.mp4'
+            if not os.path.exists(video_path):
+                missing_files.append(video_path)
+        
+        if missing_files:
+            print('❌ Missing files:')
+            for file in missing_files:
+                print(f'  - {file}')
+            exit(1)
+        else:
+            print('✅ All referenced content files exist')
+        "
+    
+    - name: Summary
+      run: |
+        echo "🎉 Catalog validation completed successfully!"
+        echo "📊 Ready for deployment to GitHub Pages"

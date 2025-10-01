@@ -1,0 +1,137 @@
+# 🎞️ scrap-tv-feed
+
+[![Content Count](https://img.shields.io/badge/Content-25%20Videos-blue.svg)](https://github.com/chris-trag/scrap-tv-feed)
+[![License: MIT-0](https://img.shields.io/badge/License-MIT--0-yellow.svg)](https://github.com/chris-trag/scrap-tv-feed/blob/main/LICENSE)
+[![Platform Support](https://img.shields.io/badge/Platforms-Android%20TV%20%7C%20Fire%20TV%20%7C%20Roku%20%7C%20Web-green.svg)](https://github.com/chris-trag/scrap-tv-feed)
+
+A ready-to-use sample TV feed with 25 absurd shows, complete metadata, and organized assets. Perfect for building app prototypes across any platform or framework.
+
+## 🌟 What's Included
+
+- **25 Complete Shows** - Videos + poster images with embedded metadata
+- **Rich Catalog** - JSON feed with ratings, genres, descriptions, release years
+- **Organized Assets** - Standardized file structure ready for CDN deployment
+- **Cross-Platform Ready** - Works with React Native, Android, Roku, Web, and more
+- **Imaginary Content** - From cereal livestreaming to zombie movie extras
+
+## 📋 Content Categories
+
+- **🐱 Feline-Friendly** - Workplace cats and corporate felines
+- **🎨 Beige Studios** - Minimalist lifestyle and meditation content  
+- **🧟 Background Character Studios** - Zombie and horror behind-the-scenes
+- **⏰ Waiting Room TV** - Patience and mindfulness programming
+- **🚗 Parking Channel** - Parking enforcement and spot hunting
+
+## 🚀 Quick Start
+
+### Use the Live Feed
+```javascript
+const CATALOG_URL = "https://raw.githubusercontent.com/chris-trag/scrap-tv-feed/main/catalog.json";
+
+fetch(CATALOG_URL)
+  .then(response => response.json())
+  .then(catalog => {
+    console.log(`Found ${catalog.items.length} shows`);
+    // Build your UI with catalog.items
+  });
+```
+
+### Filter by Category
+```javascript
+// Get trending content
+const trending = catalog.items.filter(item => item.trending);
+
+// Get comedy shows
+const comedy = catalog.items.filter(item => 
+  item.genres.includes("Comedy")
+);
+
+// Get kid-friendly content
+const kidsShows = catalog.items.filter(item => 
+  item.content_rating === "TV-G"
+);
+```
+
+## 🎯 Catalog Structure
+
+Each show includes:
+```json
+{
+  "id": "cereal-streamz",
+  "type": "movie",
+  "title": "Cereal Streamz", 
+  "category": "General",
+  "genres": ["Kids", "Reality"],
+  "trending": true,
+  "rating_count": 4837,
+  "rating_stars": 4.0,
+  "content_rating": "TV-G",
+  "release_year": 2018,
+  "description": "Livestreamed cereal tastings with chat interaction...",
+  "duration_sec": 10,
+  "images": {
+    "poster_16x9": "${base_path}/content/cereal-streamz/poster_1920x1080.jpg"
+  },
+  "sources": [
+    {
+      "type": "mp4", 
+      "url": "${base_path}/content/cereal-streamz/movie_1080p.mp4"
+    }
+  ]
+}
+```
+
+## 🔧 Customization
+
+### Change CDN Base URL
+Replace `${base_path}` in `catalog.json` with your hosting URL:
+
+```bash
+# For GitHub Pages
+sed -i 's/${base_path}/https:\/\/username.github.io\/scrap-tv-feed/g' catalog.json
+
+# For your own CDN
+sed -i 's/${base_path}/https:\/\/cdn.yoursite.com/g' catalog.json
+```
+
+### Host Your Own Copy
+1. Fork this repository
+2. Enable GitHub Pages in repository settings
+3. Update `${base_path}` to your GitHub Pages URL
+4. Use `https://username.github.io/scrap-tv-feed/catalog.json`
+
+## 📁 File Structure
+
+```
+scrap-tv-feed/
+├── catalog.json              # Main feed with all metadata
+├── content/                  # Organized video assets
+│   ├── cereal-streamz/
+│   │   ├── movie_1080p.mp4
+│   │   └── poster_1920x1080.jpg
+│   ├── feline-assistant/
+│   │   ├── movie_1080p.mp4
+│   │   └── poster_1920x1080.jpg
+│   └── ...
+├── examples/                 # Platform integration examples
+├── tools/                    # Catalog generation scripts
+└── README.md
+```
+
+## 🤝 Contributing
+
+Found a bug or want to add more absurd content? See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📄 License
+
+This project is licensed under MIT-0 - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- All content created by [Chris Trag](https://github.com/chris-trag)
+- Built for the developer community to prototype apps
+- Inspired by the need for realistic sample data with personality
+
+---
+
+**Made with 🎬 for developers building the future**
