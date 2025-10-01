@@ -132,8 +132,7 @@ This project is licensed under MIT-0 - see the [LICENSE](LICENSE) file for detai
 ## 🙏 Acknowledgments
 
 - All content created by [Chris Trag](https://github.com/chris-trag)
-- Built for the developer community to prototype apps
-- **Tools used**: [Obsidian](https://obsidian.md) for ideation, [Amazon Q CLI](https://aws.amazon.com/q/developer/) for automation, Wan 2.5 for video generation, Amazon Nova Canvas for poster creation
+- **Tools used**: [Obsidian](https://obsidian.md) for ideation, [Amazon Q CLI](https://aws.amazon.com/q/developer/) for automation, [Wan 2.5](https://github.com/Wan-Video) for video generation, [Amazon Nova Canvas](https://docs.aws.amazon.com/nova/latest/userguide/image-generation.html) for poster creation
 - Special thanks to [@giolaq](https://github.com/giolaq) for guidance and advice
 
 ---
