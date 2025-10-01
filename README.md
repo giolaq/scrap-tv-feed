@@ -4,7 +4,7 @@
 
 [![License: MIT-0](https://img.shields.io/badge/License-MIT--0-yellow.svg)](https://github.com/chris-trag/scrap-tv-feed/blob/main/LICENSE)
 
-A ready-to-use sample TV feed with 25 absurd shows, complete metadata, and organized assets. Perfect for building app prototypes across any platform or framework.
+A ready-to-use sample TV feed with imaginary shows, complete metadata, and organized assets. Perfect for building app prototypes across any platform or framework.
 
 ## 🌟 What's Included
 
