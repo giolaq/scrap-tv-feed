@@ -1,6 +1,8 @@
-# 🎞️ scrap-tv-feed
+# 🎞️ Scrap TV Feed
 
-![Scrap TV Feed Preview](hero-github.jpg)
+[![Scrap TV Feed Preview](hero-github.jpg)](TV-COLLECTION.md)
+
+**[📺 View Full Collection →](TV-COLLECTION.md)**
 
 [![License: MIT-0](https://img.shields.io/badge/License-MIT--0-yellow.svg)](https://github.com/chris-trag/scrap-tv-feed/blob/main/LICENSE)
 
