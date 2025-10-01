@@ -133,7 +133,8 @@ This project is licensed under MIT-0 - see the [LICENSE](LICENSE) file for detai
 
 - All content created by [Chris Trag](https://github.com/chris-trag)
 - Built for the developer community to prototype apps
-- Inspired by the need for realistic sample data with personality
+- **Tools used**: [Obsidian](https://obsidian.md) for ideation, [Amazon Q CLI](https://aws.amazon.com/q/developer/) for automation, Wan 2.5 for video generation, Amazon Nova Canvas for poster creation
+- Special thanks to [@giolaq](https://github.com/giolaq) for guidance and advice
 
 ---
 
