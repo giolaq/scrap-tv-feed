@@ -105,15 +105,18 @@ sed -i 's/${base_path}/https:\/\/cdn.yoursite.com/g' catalog.json
 ```
 scrap-tv-feed/
 ├── catalog.json              # Main feed with all metadata
+├── hero-github.jpg           # Hero image for README
+├── TV-COLLECTION.md          # Visual catalog with animated previews
 ├── content/                  # Organized video assets
 │   ├── cereal-streamz/
 │   │   ├── movie_1080p.mp4
-│   │   └── poster_1920x1080.jpg
+│   │   ├── poster_1920x1080.jpg
+│   │   └── preview_animated_1280x720.gif
 │   ├── feline-assistant/
 │   │   ├── movie_1080p.mp4
-│   │   └── poster_1920x1080.jpg
+│   │   ├── poster_1920x1080.jpg
+│   │   └── preview_animated_1280x720.gif
 │   └── ...
-├── examples/                 # Platform integration examples
 ├── tools/                    # Catalog generation scripts
 └── README.md
 ```
