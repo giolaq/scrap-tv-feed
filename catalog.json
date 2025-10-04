@@ -16,12 +16,12 @@
       "content_rating": "TV-G",
       "release_year": 2022,
       "images": {
-        "poster_16x9": "https://giolaq.github.io/scrap-tv-feed/content/aliens_from_vega/vega.jpg"
+        "poster_16x9": "https://giolaq.github.io/scrap-tv-feed/content/aliens-from-vega/vega.jpg"
       },
       "sources": [
         {
           "type": "mp4",
-          "url": "https://giolaq.github.io/scrap-tv-feed/content/aliens_from_ega/vega.mp4"
+          "url": "https://giolaq.github.io/scrap-tv-feed/content/aliens-from-vega/vega.mp4"
         }
       ],
       "description": "Gio and Eric befriend aliens coming from Vega and save the earth",
