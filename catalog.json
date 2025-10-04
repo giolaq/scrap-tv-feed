@@ -3,13 +3,12 @@
   "updated_at": "2025-09-30T23:30:10Z",
   "items": [
     {
-      "id": "appointment-delayed",
+      "id": "vega",
       "type": "movie",
-      "title": "Appointment Delayed",
-      "category": "Waiting Room TV",
+      "title": "Aliens From Vega",
+      "category": "Sci-Fi",
       "genres": [
-        "Reality",
-        "Documentary"
+        "Sci-Fi"
       ],
       "trending": false,
       "rating_count": 6109,
@@ -17,15 +16,15 @@
       "content_rating": "TV-G",
       "release_year": 2022,
       "images": {
-        "poster_16x9": "https://giolaq.github.io/scrap-tv-feed/content/appointment-delayed/poster_1920x1080.jpg"
+        "poster_16x9": "https://giolaq.github.io/scrap-tv-feed/content/aliens_from_vega/vega.jpg"
       },
       "sources": [
         {
           "type": "mp4",
-          "url": "https://giolaq.github.io/scrap-tv-feed/content/appointment-delayed/movie_1080p.mp4"
+          "url": "https://giolaq.github.io/scrap-tv-feed/content/aliens_from_ega/vega.mp4"
         }
       ],
-      "description": "Sarah Holdpattern captures real people in authentic waiting situations - from doctor's offices to DMV lines. Features candid interviews about what people think about, do, and feel while waiting for important appointments.",
+      "description": "Gio and Eric befriend aliens coming from Vega and save the earth",
       "duration_sec": 10
     },
     {
