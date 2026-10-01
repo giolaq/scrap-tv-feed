@@ -26,7 +26,8 @@
         }
       ],
       "description": "Gio's AI agent, Byte, knows everything except how to build a Fire TV app. One npx command later, it has swallowed the entire Amazon Devices library and won't stop saying \"well, actually, on Vega...\". Watch the pair beat the slow dungeon, take down the crash boss, and cross the bridge, all without a single hallucinated API. No agents were left uninformed in the making of this quest.",
-      "duration_sec": 110
+      "duration_sec": 110,
+      "loop": true
     },
     {
       "id": "vega",
