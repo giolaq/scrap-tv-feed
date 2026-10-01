@@ -30,6 +30,32 @@
       "loop": true
     },
     {
+      "id": "amazon-dev-hackathon",
+      "type": "movie",
+      "title": "Build, Ship, Shape: Amazon Developer Hackathon",
+      "category": "Sci-Fi",
+      "genres": [
+        "Tech",
+        "Documentary"
+      ],
+      "trending": true,
+      "rating_count": 1900,
+      "rating_stars": 5,
+      "content_rating": "TV-G",
+      "release_year": 2026,
+      "images": {
+        "poster_16x9": "https://giolaq.github.io/scrap-tv-feed/content/amazon-dev-hackathon/amazon-dev-hackathon.jpg"
+      },
+      "sources": [
+        {
+          "type": "mp4",
+          "url": "https://giolaq.github.io/scrap-tv-feed/content/amazon-dev-hackathon/amazon-dev-hackathon.mp4"
+        }
+      ],
+      "description": "The first global Amazon Developer Hackathon. $190,000 in prizes across four tracks: build something real on Fire TV, Alexa+, Ring, and Bee. Open to developers anywhere from August 31 to October 23, 2026. Register at amazonappdev2026.devpost.com.",
+      "duration_sec": 34
+    },
+    {
       "id": "vega",
       "type": "movie",
       "title": "Aliens From Vega",
