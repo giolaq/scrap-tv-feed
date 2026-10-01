@@ -1,7 +1,33 @@
 {
   "catalog_version": "1.1",
-  "updated_at": "2025-09-30T23:30:10Z",
+  "updated_at": "2026-10-01T00:00:00Z",
   "items": [
+    {
+      "id": "adbt-quest",
+      "type": "movie",
+      "title": "ADBT Quest",
+      "category": "Sci-Fi",
+      "genres": [
+        "Adventure",
+        "Comedy"
+      ],
+      "trending": true,
+      "rating_count": 4242,
+      "rating_stars": 5,
+      "content_rating": "TV-G",
+      "release_year": 2026,
+      "images": {
+        "poster_16x9": "https://giolaq.github.io/scrap-tv-feed/content/adbt-quest/adbt-quest.jpg"
+      },
+      "sources": [
+        {
+          "type": "mp4",
+          "url": "https://giolaq.github.io/scrap-tv-feed/content/adbt-quest/adbt-quest.mp4"
+        }
+      ],
+      "description": "Gio's AI agent, Byte, knows everything except how to build a Fire TV app. One npx command later, it has swallowed the entire Amazon Devices library and won't stop saying \"well, actually, on Vega...\". Watch the pair beat the slow dungeon, take down the crash boss, and cross the bridge, all without a single hallucinated API. No agents were left uninformed in the making of this quest.",
+      "duration_sec": 110
+    },
     {
       "id": "vega",
       "type": "movie",
