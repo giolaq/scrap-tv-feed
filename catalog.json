@@ -53,7 +53,8 @@
         }
       ],
       "description": "The first global Amazon Developer Hackathon. $190,000 in prizes across four tracks: build something real on Fire TV, Alexa+, Ring, and Bee. Open to developers anywhere from August 31 to October 23, 2026. Register at amazonappdev2026.devpost.com.",
-      "duration_sec": 34
+      "duration_sec": 34,
+      "loop": true
     },
     {
       "id": "vega",
